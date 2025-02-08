@@ -1,7 +1,7 @@
 export default function DiscoverHelp() {
   return (
     <>
-      <section className="section-help tf-spacing-1">
+      <section className="section-help tf-spacing-1" style={{ marginTop: "4rem" }}>
         <div className="tf-container">
           <div className="row">
             <div className="col-12">
