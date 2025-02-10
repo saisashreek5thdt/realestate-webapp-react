@@ -102,7 +102,7 @@ export default function PageTitle() {
                       </div> */}
                       <LocationSelect />
                       <div className="wrap-btn">
-                        <div className="btn-filter show-form">
+                        {/* <div className="btn-filter show-form">
                           <div className="icons">
                             <svg
                               width="24"
@@ -176,13 +176,13 @@ export default function PageTitle() {
                               />
                             </svg>
                           </div>
-                        </div>
+                        </div> */}
                         <a href="#" className="tf-btn bg-color-primary pd-3">
                           Search <i className="icon-MagnifyingGlass fw-6"></i>
                         </a>
                       </div>
                     </div>
-                    <div className="wd-search-form">
+                    {/* <div className="wd-search-form">
                       <div className="group-price">
                         <div className="widget-price">
                           <div className="box-title-price">
@@ -473,7 +473,7 @@ export default function PageTitle() {
                           </fieldset>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
