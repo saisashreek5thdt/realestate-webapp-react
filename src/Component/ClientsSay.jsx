@@ -52,9 +52,9 @@ export default function ClientsSay() {
                       </div>
                       <div className="author">
                         <h6 className="name">
-                          <a href="#">Leslie Alexander</a>
+                          <a href="#">User Name</a>
                         </h6>
-                        <p className="text-9 lh-20">Los Angeles, CA</p>
+                        <p className="text-9 lh-20">Location Name</p>
                       </div>
                     </div>
                   </div>
@@ -78,9 +78,9 @@ export default function ClientsSay() {
                       </div>
                       <div className="author">
                         <h6 className="name">
-                          <a href="#">Leslie Alexander</a>
+                          <a href="#">User Name</a>
                         </h6>
-                        <p className="text-9 lh-20">Los Angeles, CA</p>
+                        <p className="text-9 lh-20">Location Name</p>
                       </div>
                     </div>
                   </div>
@@ -104,9 +104,9 @@ export default function ClientsSay() {
                       </div>
                       <div className="author">
                         <h6 className="name">
-                          <a href="#">Leslie Alexander</a>
+                          <a href="#">User Name</a>
                         </h6>
-                        <p className="text-9 lh-20">Los Angeles, CA</p>
+                        <p className="text-9 lh-20">Location Name</p>
                       </div>
                     </div>
                   </div>
@@ -132,7 +132,7 @@ export default function ClientsSay() {
                         <h6 className="name">
                           <a href="#">Annette Black</a>
                         </h6>
-                        <p className="text-9 lh-20">Los Angeles, CA</p>
+                        <p className="text-9 lh-20">Location Name</p>
                       </div>
                     </div>
                   </div>
@@ -158,7 +158,7 @@ export default function ClientsSay() {
                         <h6 className="name">
                           <a href="#">Ronald Richards</a>
                         </h6>
-                        <p className="text-9 lh-20">Los Angeles, CA</p>
+                        <p className="text-9 lh-20">Location Name</p>
                       </div>
                     </div>
                   </div>
