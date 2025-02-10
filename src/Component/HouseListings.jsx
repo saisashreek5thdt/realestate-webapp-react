@@ -31,7 +31,7 @@ export default function HouseListings() {
                   <div className="swiper-slide">
                     <div className="box-house hover-img style-list ">
                       <div className="image-wrap">
-                        <a href="property-detail-v1.html">
+                        <a href="/">
                           <img
                             className="lazyload"
                             data-src={houseImg1}
@@ -57,14 +57,13 @@ export default function HouseListings() {
                       </div>
                       <div className="content">
                         <h5 className="title">
-                          <a href="property-detail-v1.html">
+                          <a href="/">
                             {" "}
-                            Elegant studio flat
+                            House Name
                           </a>
                         </h5>
                         <p className="location text-1 line-clamp-1 ">
-                          <i className="icon-location"></i> Los Angeles,
-                          California 91604
+                          <i className="icon-location"></i> Location Name
                         </p>
                         <ul className="meta-list flex">
                           <li className="meta-item">
@@ -86,10 +85,10 @@ export default function HouseListings() {
                           </li>
                         </ul>
                         <div className="bot flex justify-between items-center">
-                          <h5 className="price">$8.600</h5>
+                          <h5 className="price">&#8377; 80000</h5>
                           <div className="wrap-btn flex">
                             <a
-                              href="property-detail-v1.html"
+                              href="/"
                               className="tf-btn style-border pd-4"
                             >
                               Details
@@ -102,7 +101,7 @@ export default function HouseListings() {
                   <div className="swiper-slide">
                     <div className="box-house hover-img style-list ">
                       <div className="image-wrap">
-                        <a href="property-detail-v1.html">
+                        <a href="/">
                           <img
                             className="lazyload"
                             data-src={houseImg2}
@@ -128,13 +127,12 @@ export default function HouseListings() {
                       </div>
                       <div className="content">
                         <h5 className="title">
-                          <a href="property-detail-v1.html">
-                            Elegant studio flat
+                          <a href="/">
+                            House Name
                           </a>
                         </h5>
                         <p className="location text-1 line-clamp-1 ">
-                          <i className="icon-location"></i> Los Angeles,
-                          California 91604
+                          <i className="icon-location"></i> Location Name
                         </p>
                         <ul className="meta-list flex">
                           <li className="meta-item">
@@ -156,10 +154,10 @@ export default function HouseListings() {
                           </li>
                         </ul>
                         <div className="bot flex justify-between items-center">
-                          <h5 className="price">$8.600</h5>
+                          <h5 className="price">&#8377; 80000</h5>
                           <div className="wrap-btn flex">
                             <a
-                              href="property-detail-v1.html"
+                              href="/"
                               className="tf-btn style-border pd-4"
                             >
                               Details
@@ -172,7 +170,7 @@ export default function HouseListings() {
                   <div className="swiper-slide">
                     <div className="box-house hover-img style-list ">
                       <div className="image-wrap">
-                        <a href="property-detail-v1.html">
+                        <a href="/">
                           <img
                             className="lazyload"
                             data-src={houseImg3}
@@ -198,13 +196,12 @@ export default function HouseListings() {
                       </div>
                       <div className="content">
                         <h5 className="title">
-                          <a href="property-detail-v1.html">
-                            Elegant studio flat
+                          <a href="/">
+                            House Name
                           </a>
                         </h5>
                         <p className="location text-1 line-clamp-1 ">
-                          <i className="icon-location"></i> Los Angeles,
-                          California 91604
+                          <i className="icon-location"></i> Location Name
                         </p>
                         <ul className="meta-list flex">
                           <li className="meta-item">
@@ -226,10 +223,10 @@ export default function HouseListings() {
                           </li>
                         </ul>
                         <div className="bot flex justify-between items-center">
-                          <h5 className="price">$8.600</h5>
+                          <h5 className="price">&#8377; 80000</h5>
                           <div className="wrap-btn flex">
                             <a
-                              href="property-detail-v1.html"
+                              href="/"
                               className="tf-btn style-border pd-4"
                             >
                               Details
@@ -242,7 +239,7 @@ export default function HouseListings() {
                   <div className="swiper-slide">
                     <div className="box-house hover-img style-list ">
                       <div className="image-wrap">
-                        <a href="property-detail-v1.html">
+                        <a href="/">
                           <img
                             className="lazyload"
                             data-src={houseImg4}
@@ -268,13 +265,12 @@ export default function HouseListings() {
                       </div>
                       <div className="content">
                         <h5 className="title">
-                          <a href="property-detail-v1.html">
-                            Elegant studio flat
+                          <a href="/">
+                            House Name
                           </a>
                         </h5>
                         <p className="location text-1 line-clamp-1 ">
-                          <i className="icon-location"></i> Los Angeles,
-                          California 91604
+                          <i className="icon-location"></i> Location Name
                         </p>
                         <ul className="meta-list flex">
                           <li className="meta-item">
@@ -296,10 +292,10 @@ export default function HouseListings() {
                           </li>
                         </ul>
                         <div className="bot flex justify-between items-center">
-                          <h5 className="price">$8.600</h5>
+                          <h5 className="price">&#8377; 80000</h5>
                           <div className="wrap-btn flex">
                             <a
-                              href="property-detail-v1.html"
+                              href="/"
                               className="tf-btn style-border pd-4"
                             >
                               Details
