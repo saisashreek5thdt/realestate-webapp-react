@@ -1121,6 +1121,7 @@ a:hover, a:focus {
   display: flex;
   align-items: center;
   gap: 30px;
+  color: #fff;
 }
 .tf-top-bar .top-bar-info li {
   display: -webkit-box;
@@ -1135,10 +1136,12 @@ a:hover, a:focus {
   font-size: 16px;
 }
 .tf-top-bar .top-bar-info li a {
-  color: var(--Text);
+  /* color: var(--Text); */
+  color: #fff;
 }
 .tf-top-bar .top-bar-info li a:hover {
-  color: var(--Primary);
+  /* color: var(--Primary); */
+  color: #F5F5F5;
 }
 .tf-top-bar .wrap-social {
   gap: 14px;
@@ -5352,6 +5355,7 @@ tr {
   display: -webkit-flex;
   display: flex;
   align-items: center;
+  color: #FFF;
 }
 
 .tf-social {
@@ -5392,7 +5396,8 @@ tr {
 }
 .tf-social.style-2 li a {
   font-size: 14px;
-  color: var(--Text);
+  /* color: var(--Text); */
+  color: #fff;
 }
 .tf-social.style-2 li:hover a {
   color: var(--Primary);
