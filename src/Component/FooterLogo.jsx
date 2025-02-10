@@ -4,7 +4,7 @@ export default function FooterLogo() {
   return (
     <>
       <div className="footer-logo">
-        <a href="index.html">
+        <a href="/">
           <img id="logo_footer" src={footerLogo} alt="logo-footer" />
         </a>
       </div>
