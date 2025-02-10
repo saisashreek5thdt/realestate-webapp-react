@@ -1,4 +1,6 @@
 import sliderImg1 from "../assets/images/section/page-title-4.jpg"
+import LocationSelect from "./LocationSelect";
+import PropertySelect from "./PropertySelect";
 
 export default function PageTitle() {
 
@@ -15,7 +17,7 @@ export default function PageTitle() {
             <div className="col-12">
               <div className="content-inner">
                 <div className="heading-title">
-                  <h1 className="title">Serving Los Angele</h1>
+                  <h1 className="title">Serving Telangana</h1>
                   <p className="h6 fw-4">Trusted Advisors Delivering Results</p>
                 </div>
                 <div className="widget-tabs style-1 ">
@@ -33,10 +35,10 @@ export default function PageTitle() {
                           />
                         </fieldset>
                       </form>
-                      <div className="nice-select" tabIndex="0">
+                      {/* <div className="nice-select" tabIndex="0">
                         <span className="current">Property type</span>
                         <ul className="list">
-                          <li data-value className="option selected">
+                          <li data-value="Property Type" data-display="Property Type" className="option selected">
                             Property type
                           </li>
                           <li data-value="bungalow" className="option">
@@ -61,8 +63,9 @@ export default function PageTitle() {
                             Villa
                           </li>
                         </ul>
-                      </div>
-                      <div className="nice-select" tabIndex="0">
+                      </div> */}
+                      <PropertySelect />
+                      {/* <div className="nice-select" tabIndex="0">
                         <span className="current">Location</span>
                         <ul className="list">
                           <li data-value="1" className="option">
@@ -96,7 +99,8 @@ export default function PageTitle() {
                             North Carolina
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
+                      <LocationSelect />
                       <div className="wrap-btn">
                         <div className="btn-filter show-form">
                           <div className="icons">
@@ -173,7 +177,7 @@ export default function PageTitle() {
                             </svg>
                           </div>
                         </div>
-                        <a href="#" className="tf-btn bg-color-primary  pd-3">
+                        <a href="#" className="tf-btn bg-color-primary pd-3">
                           Search <i className="icon-MagnifyingGlass fw-6"></i>
                         </a>
                       </div>
