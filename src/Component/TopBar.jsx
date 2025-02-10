@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function TopBar() {
   return (
     <>
@@ -10,38 +12,46 @@ export default function TopBar() {
                   <li>
                     <i className="icon-phone-1"></i>
                     <p>
-                      Phone: <span className="fw-7">(603) 555-0123</span>
+                      Phone:{" "}
+                      <span className="fw-7">
+                        <Link to="tel:+918877330289">
+                          (+91) 887 - 733 - 0289
+                        </Link>
+                      </span>
                     </p>
                   </li>
                   <li>
                     <i className="icon-mail"></i>
                     <p>
-                      Email: <a href="#">themesflat@gmail.com</a>
+                      Email:{" "}
+                      <Link to="mailto:info@realestate.com">
+                        info@realestate.com
+                      </Link>
                     </p>
                   </li>
                 </ul>
                 <div className="wrap-social">
-                  <p>Follow us</p>
-                  <ul className="tf-social  style-2">
+                  <p>Follow Us On:</p>
+                  <ul className="tf-social style-2">
                     <li>
-                      <a href="#">
+                      <Link to="/">
                         <i className="icon-fb"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/">
                         <i className="icon-X"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/">
                         <i className="icon-linked"></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="/">
                         <i className="icon-ins"></i>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
