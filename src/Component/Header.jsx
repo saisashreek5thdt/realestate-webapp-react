@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo/logo-5@2x.png";
 
 export default function Header() {
@@ -10,234 +11,53 @@ export default function Header() {
               <div className="col-12">
                 <div className="header-inner-wrap">
                   <div className="header-logo">
-                    <a href="index.html" className="site-logo">
+                    <Link to="/" className="site-logo">
                       <img id="logo_header" alt="" src={logo} />
-                    </a>
+                    </Link>
                   </div>
                   <nav className="main-menu">
-                    <ul className="navigation ">
-                      <li className="has-child current-menu">
-                        <a href="#">Home</a>
-                        <ul className="submenu">
-                          <li>
-                            <a href="index.html">Home Page 01</a>
-                          </li>
-                          <li>
-                            <a href="home02.html">Home Page 02</a>
-                          </li>
-                          <li>
-                            <a href="home03.html">Home Page 03</a>
-                          </li>
-                          <li className="current-item">
-                            <a href="home04.html">Home Page 04</a>
-                          </li>
-                          <li>
-                            <a href="home05.html">Home Page 05</a>
-                          </li>
-                        </ul>
+                    <ul className="navigation">
+                      <li className="current-menu">
+                        <Link to="/">Home</Link>
                       </li>
-                      <li className="has-child style-2">
-                        <a href="#">Listing</a>
+                      <li className="has-child">
+                        <Link to="/">Rent a House</Link>
                         <ul className="submenu">
                           <li>
-                            <a href="#">Layout</a>
-                            <ul className="submenu2">
-                              <li>
-                                <a href="property-grid-full-width.html">
-                                  Grid Style - Full Width{" "}
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-gird-top-search.html">
-                                  Grid Style - Top Search{" "}
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-gird-left-sidebar.html">
-                                  Grid Style - Sidebar Left{" "}
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-gird-right-sidebar.html">
-                                  Grid Style - Sidebar Right{" "}
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-list-full-width.html">
-                                  List Style - Full Width{" "}
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-list-top-search.html">
-                                  List Style - Top Search
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-list-left-sidebar.html">
-                                  List Style - Sidebar Left{" "}
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-list-right-sidebar.html">
-                                  List Style - Sidebar Right{" "}
-                                </a>
-                              </li>
-                            </ul>
+                            <Link to="/">Property 1</Link>
                           </li>
                           <li>
-                            <a href="#">Feature</a>
-                            <ul className="submenu2">
-                              <li>
-                                <a href="property-half-map-grid.html">
-                                  Property Half Map Grid
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-half-map-list.html">
-                                  Property Half Map List
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-half-top-map.html">
-                                  Property Half Map Top
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-filter-popup.html">
-                                  Property Filter Popup
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-filter-popup-left.html">
-                                  Property Filter Popup Left{" "}
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-filter-popup-right.html">
-                                  Property Filter Popup Right{" "}
-                                </a>
-                              </li>
-                            </ul>
+                            <Link to="/">Property 2</Link>
                           </li>
                           <li>
-                            <a href="#">Listing Details</a>
-                            <ul className="submenu2">
-                              <li>
-                                <a href="property-detail-v1.html">
-                                  Property Details 1
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-detail-v2.html">
-                                  Property Details 2
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-detail-v3.html">
-                                  Property Details 3
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-detail-v4.html">
-                                  Property Details 4
-                                </a>
-                              </li>
-                              <li>
-                                <a href="property-detail-v5.html">
-                                  Property Details 5
-                                </a>
-                              </li>
-                            </ul>
+                            <Link to="/">Property 3</Link>
                           </li>
                         </ul>
                       </li>
                       <li className="has-child">
-                        <a href="#">Pages</a>
+                        <Link to="/">Sell a House</Link>
                         <ul className="submenu">
-                          <li className="has-child">
-                            <a href="#">Agents</a>
-                            <ul className="submenu">
-                              <li>
-                                <a href="agents.html">Agents</a>
-                              </li>
-                              <li>
-                                <a href="agents-details.html">Agents Details</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li className="has-child">
-                            <a href="#">Agencies</a>
-                            <ul className="submenu">
-                              <li>
-                                <a href="agency-grid.html">Agencies Grid</a>
-                              </li>
-                              <li>
-                                <a href="agency-list.html">Agencies List</a>
-                              </li>
-                              <li>
-                                <a href="agency-details.html">
-                                  Agencies Detail
-                                </a>
-                              </li>
-                            </ul>
+                          <li>
+                            <Link to="/">Property 1</Link>
                           </li>
                           <li>
-                            <a href="home-loan-process.html">
-                              Home Loan Process
-                            </a>
+                            <Link to="/">Property 2</Link>
                           </li>
                           <li>
-                            <a href="career.html">Career</a>
-                          </li>
-                          <li>
-                            <a href="faq.html">Faqs</a>
-                          </li>
-                          <li>
-                            <a href="dashboard.html">Dashboard</a>
+                            <Link to="/">Property 3</Link>
                           </li>
                         </ul>
                       </li>
-                      <li className="has-child current">
-                        <a href="#">Blog</a>
-                        <ul className="submenu">
-                          <li className="current">
-                            <a href="blog-list.html">Blog List</a>
-                          </li>
-                          <li>
-                            <a href="blog-grid.html">Blog Grid</a>
-                          </li>
-                          <li>
-                            <a href="blog-details.html">Blog Detail</a>
-                          </li>
-                        </ul>
+                      <li className="current">
+                        <Link to="/">Talk to Agent</Link>
                       </li>
                       <li>
-                        <a href="contact.html">Contact</a>
+                        <Link to="/">Contact</Link>
                       </li>
                     </ul>
                   </nav>
                   <div className="header-right">
-                    <div className="phone-number">
-                      <div className="icons">
-                        <svg
-                          width="20"
-                          height="20"
-                          viewBox="0 0 20 20"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M1.875 5.625C1.875 12.5283 7.47167 18.125 14.375 18.125H16.25C16.7473 18.125 17.2242 17.9275 17.5758 17.5758C17.9275 17.2242 18.125 16.7473 18.125 16.25V15.1067C18.125 14.6767 17.8325 14.3017 17.415 14.1975L13.7292 13.2758C13.3625 13.1842 12.9775 13.3217 12.7517 13.6233L11.9433 14.7008C11.7083 15.0142 11.3025 15.1525 10.935 15.0175C9.57073 14.5159 8.33179 13.7238 7.30398 12.696C6.27618 11.6682 5.48406 10.4293 4.9825 9.065C4.8475 8.6975 4.98583 8.29167 5.29917 8.05667L6.37667 7.24833C6.67917 7.0225 6.81583 6.63667 6.72417 6.27083L5.8025 2.585C5.75178 2.38225 5.63477 2.20225 5.47004 2.07361C5.30532 1.94498 5.10234 1.87507 4.89333 1.875H3.75C3.25272 1.875 2.77581 2.07254 2.42417 2.42417C2.07254 2.77581 1.875 3.25272 1.875 3.75V5.625Z"
-                            stroke="black"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      </div>
-                      <p>(603) 555-0123</p>
-                    </div>
-                    <div className="box-user tf-action-btns">
+                    {/* <div className="box-user tf-action-btns">
                       <div className="user ">
                         <svg
                           width="24"
@@ -260,7 +80,7 @@ export default function Header() {
                         <i className="icon-CaretDown"></i>
                       </div>
                       <div className=" menu-user">
-                        <a className="dropdown-item" href="dashboard.html">
+                        <Link className="dropdown-item" to="/">
                           <svg
                             width="20"
                             height="20"
@@ -298,8 +118,8 @@ export default function Header() {
                             />
                           </svg>
                           Dashboards
-                        </a>
-                        <a className="dropdown-item" href="my-profile.html">
+                        </Link>
+                        <Link className="dropdown-item" to="/">
                           <svg
                             width="20"
                             height="20"
@@ -386,7 +206,7 @@ export default function Header() {
                             />
                           </svg>
                           My profile
-                        </a>
+                        </Link>
                         <a className="dropdown-item" href="my-package.html">
                           <svg
                             width="20"
@@ -654,13 +474,13 @@ export default function Header() {
                       </div>
                     </div>
                     <div className="btn-add">
-                      <a
+                      <Link
                         className="tf-btn style-border pd-23"
-                        href="add-property.html"
+                        to="/"
                       >
                         Add property
-                      </a>
-                    </div>
+                      </Link>
+                    </div> */}
                     <div
                       className="mobile-button"
                       data-bs-toggle="offcanvas"
