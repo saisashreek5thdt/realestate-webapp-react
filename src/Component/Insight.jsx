@@ -34,7 +34,7 @@ export default function Insight() {
                   <div className="swiper-slide">
                     <div className="blog-article-item style-2 hover-img">
                       <div className=" image-wrap ">
-                        <a href="blog-details.html">
+                        <a href="/">
                           <img
                             className="lazyload"
                             data-src={insightImg1}
@@ -91,15 +91,15 @@ export default function Insight() {
                               </defs>
                             </svg>
                           </div>
-                          <p className="fw-5">26 August, 2024</p>
+                          <p className="fw-5">26 January, 2025</p>    
                         </div>
                         <h4 className="title  ">
-                          <a href="blog-details.html" className="line-clamp-2">
+                          <a href="/" className="line-clamp-2">
                             Building gains into housing stocks and how to trade
                             the...
                           </a>
                         </h4>
-                        <a href="blog-details.html" className="tf-btn-link">
+                        <a href="/" className="tf-btn-link">
                           <span>Read More</span>{" "}
                           <svg
                             width="20"
@@ -144,7 +144,7 @@ export default function Insight() {
                   <div className="swiper-slide">
                     <div className="blog-article-item style-2 hover-img ">
                       <div className=" image-wrap ">
-                        <a href="blog-details.html">
+                        <a href="/">
                           <img
                             className="lazyload"
                             data-src={insightImg2}
@@ -201,15 +201,15 @@ export default function Insight() {
                               </defs>
                             </svg>
                           </div>
-                          <p className="fw-5">26 August, 2024</p>
+                          <p className="fw-5">28 January, 2025</p>
                         </div>
                         <h4 className="title  ">
-                          <a href="blog-details.html" className="line-clamp-2">
+                          <a href="/" className="line-clamp-2">
                             Building gains into housing stocks and how to trade
                             the...
                           </a>
                         </h4>
-                        <a href="blog-details.html" className="tf-btn-link">
+                        <a href="/" className="tf-btn-link">
                           <span>Read More</span>{" "}
                           <svg
                             width="20"
@@ -254,7 +254,7 @@ export default function Insight() {
                   <div className="swiper-slide">
                     <div className="blog-article-item style-2 hover-img ">
                       <div className=" image-wrap ">
-                        <a href="blog-details.html">
+                        <a href="/">
                           <img
                             className="lazyload"
                             data-src={insightImg3}
@@ -311,15 +311,15 @@ export default function Insight() {
                               </defs>
                             </svg>
                           </div>
-                          <p className="fw-5">26 August, 2024</p>
+                          <p className="fw-5">31 January, 2025</p>
                         </div>
                         <h4 className="title  ">
-                          <a href="blog-details.html" className="line-clamp-2">
+                          <a href="/" className="line-clamp-2">
                             Building gains into housing stocks and how to trade
                             the...
                           </a>
                         </h4>
-                        <a href="blog-details.html" className="tf-btn-link">
+                        <a href="/" className="tf-btn-link">
                           <span>Read More</span>{" "}
                           <svg
                             width="20"
