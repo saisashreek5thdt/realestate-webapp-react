@@ -1,4 +1,4 @@
-import FooterContact from "./FooterContact";
+//import FooterContact from "./FooterContact";
 import FooterLogo from "./FooterLogo";
 import FooterMain from "./FooterMain";
 
@@ -10,7 +10,7 @@ export default function FooterFunction() {
           <div className="col-12">
             <div className="footer-top">
               <FooterLogo />
-              <FooterContact />
+              {/* <FooterContact /> */}
             </div>
           </div>
           <FooterMain />
