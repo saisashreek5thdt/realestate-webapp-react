@@ -37,7 +37,7 @@ export default function ExploreSection() {
                   </a>
                 </div>
                 <div className="content">
-                  <h6 className="text-white">New York</h6>
+                  <h6 className="text-white">Banjarahills</h6>
                   <a
                     href="#"
                     className="text-1 tf-btn style-border pd-23 text-white  tf-btn style-border pd-23"
@@ -58,7 +58,7 @@ export default function ExploreSection() {
                   </a>
                 </div>
                 <div className="content">
-                  <h6 className="text-white">New York</h6>
+                  <h6 className="text-white">Jublie Hills</h6>
                   <a
                     href="#"
                     className="text-1 tf-btn style-border pd-23 text-white"
@@ -79,7 +79,7 @@ export default function ExploreSection() {
                   </a>
                 </div>
                 <div className="content">
-                  <h6 className="text-white">New York</h6>
+                  <h6 className="text-white">Hitech City</h6>
                   <a
                     href="#"
                     className="text-1 tf-btn style-border pd-23 text-white"
@@ -100,7 +100,7 @@ export default function ExploreSection() {
                   </a>
                 </div>
                 <div className="content">
-                  <h6 className="text-white">New York</h6>
+                  <h6 className="text-white">Khajaguda</h6>
                   <a
                     href="#"
                     className="text-1 tf-btn style-border pd-23 text-white"
@@ -121,7 +121,7 @@ export default function ExploreSection() {
                   </a>
                 </div>
                 <div className="content">
-                  <h6 className="text-white">New York</h6>
+                  <h6 className="text-white">Gachibowli</h6>
                   <a
                     href="#"
                     className="text-1 tf-btn style-border pd-23 text-white"
@@ -142,7 +142,7 @@ export default function ExploreSection() {
                   </a>
                 </div>
                 <div className="content">
-                  <h6 className="text-white">New York</h6>
+                  <h6 className="text-white">Mehdipatnam</h6>
                   <a
                     href="#"
                     className="text-1 tf-btn style-border pd-23 text-white"
@@ -163,7 +163,7 @@ export default function ExploreSection() {
                   </a>
                 </div>
                 <div className="content">
-                  <h6 className="text-white">New York</h6>
+                  <h6 className="text-white">Ameerpet</h6>
                   <a
                     href="#"
                     className="text-1 tf-btn style-border pd-23 text-white"
