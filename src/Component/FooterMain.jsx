@@ -3,85 +3,85 @@ export default function FooterMain() {
     <>
       <div className="footer-main">
         <div className="row">
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="footer-menu-list footer-col-block style-2">
               <h5 className="title lh-30 title-desktop">About us</h5>
               <h5 className="title lh-30 title-mobile">About us</h5>
               <ul className="tf-collapse-content">
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <a href="/">Contact</a>
                 </li>
                 <li>
-                  <a href="service-details.html">Why choose us?</a>
+                  <a href="/">Why choose us?</a>
                 </li>
                 <li>
-                  <a href="#">Customer reviews</a>
+                  <a href="/">Customer reviews</a>
                 </li>
                 <li>
-                  <a href="agents.html">Our team</a>
+                  <a href="/">Our team</a>
                 </li>
                 <li>
-                  <a href="career.html">Careers with realty</a>
+                  <a href="/">Careers with realty</a>
                 </li>
                 <li>
-                  <a href="career.html">Work with us</a>
+                  <a href="/">Work with us</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="footer-menu-list footer-col-block">
               <h5 className="title lh-30 title-desktop">Popular house</h5>
               <h5 className="title lh-30 title-mobile">Popular house</h5>
               <ul className="tf-collapse-content">
                 <li>
-                  <a href="property-gird.html">#Penthouses</a>
+                  <a href="/">#Penthouses</a>
                 </li>
                 <li>
-                  <a href="property-gird.html">#Villa</a>
+                  <a href="/">#Villa</a>
                 </li>
                 <li>
-                  <a href="property-gird.html">#Smart home</a>
+                  <a href="/">#Smart home</a>
                 </li>
                 <li>
-                  <a href="property-gird.html">#Apartments</a>
+                  <a href="/">#Apartments</a>
                 </li>
                 <li>
-                  <a href="property-gird.html">#Office</a>
+                  <a href="/">#Office</a>
                 </li>
                 <li>
-                  <a href="property-gird.html">#Bungalow</a>
+                  <a href="/">#Bungalow</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 col-md-6">
             <div className="footer-menu-list footer-col-block style-2">
               <h5 className="title lh-30 title-desktop">Quick links</h5>
               <h5 className="title lh-30 title-mobile">Quick links</h5>
               <ul className="tf-collapse-content">
                 <li>
-                  <a href="#">Terms of use</a>
+                  <a href="/">Terms of use</a>
                 </li>
                 <li>
-                  <a href="#">Privacy policy</a>
+                  <a href="/">Privacy policy</a>
                 </li>
                 <li>
-                  <a href="#">Our services</a>
+                  <a href="/">Our services</a>
                 </li>
                 <li>
-                  <a href="contact.html">Contact support</a>
+                  <a href="/">Contact support</a>
                 </li>
                 <li>
-                  <a href="#">Pricing plans</a>
+                  <a href="/">Pricing plans</a>
                 </li>
                 <li>
-                  <a href="faq.html">FAQs</a>
+                  <a href="/">FAQs</a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6">
+          {/* <div className="col-lg-3 col-md-6">
             <div className="footer-menu-list newsletter">
               <h5 className="title lh-30 ">Newsletter</h5>
               <div className="sib-form">
@@ -198,7 +198,7 @@ export default function FooterMain() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
