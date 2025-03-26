@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import Home from "./Home";
 
 export default function App() {
-
   useEffect(() => {
     // List of scripts to include
     const scripts = [
@@ -22,7 +21,7 @@ export default function App() {
       "js/Splitetext.js",
       "js/ScrollTrigger.min.js",
       "js/mainApp.js",
-      "js/mainForm.js"
+      "js/mainForm.js",
     ];
 
     // Function to dynamically load a script
@@ -65,9 +64,17 @@ export default function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />
-    }
+      element: <Home />,
+    },
   ]);
 
-  return <RouterProvider router={router} />;
+  return (
+    <RouterProvider
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true,
+      }}
+      router={router}
+    />
+  );
 }
